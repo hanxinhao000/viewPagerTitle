@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--这个相当于可以添加无数个-->
+
+
+    <com.xinhao_han.viewpagerindex.XHHorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hsv"
+        android:scrollbars="none"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/max_li"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+               ></LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/max_rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/max_li"
+                android:layout_marginTop="5dp">
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </com.xinhao_han.viewpagerindex.XHHorizontalScrollView>
+
+</LinearLayout>
